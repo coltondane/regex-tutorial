@@ -55,7 +55,7 @@ In this regex the bracket expressions are the same as the character classes, whi
 
 ### Greedy and Lazy Match
 
-In the regex listed above there is not an example of a lazy match, the '{n}' notation however is a good example of a greedy match that is used multiple times. The characteristic that qualifies that syntax as 'greedy' is that it tries to match as many digits as possible because credit cards have a very fixed pattern. A lazy match appraoch would not be applicable here as Visa cards, for example, do not have varying numerical patterns. 
+In the regex listed above there is not an example of a lazy match, the '{n}' notation however is a good example of a greedy match that is used multiple times. The characteristic that qualifies that syntax as 'greedy' is that it tries to match as many digits as possible because credit cards have a very fixed pattern. A lazy match approach would not be applicable here as Visa cards, for example, do not have varying numerical patterns. 
 
 ### Boundaries
 
@@ -67,7 +67,7 @@ There is no example of a back-reference in this regex as the non-capturing metho
 
 ### Look-ahead and Look-behind
 
-There is not an example in the above regex of this property, the purpose of these methods is for asserting that a specific pattern will be before or after the specified position. An example where this would be useful would be in URL authentication. making sure that www. precedes a given string, or making sure that .com comes after a given string.
+There is not an example in the above regex of this property, the purpose of these methods is for asserting that a specific pattern will be before or after the specified position. An example where this would be useful would be in URL authentication. making sure that www. precedes a given string, or making sure that .com comes after a given string. this would look like: (?<=www\.)https?://\S+ and: ^(?=.*\.com).*$
 
 ## Author
 
