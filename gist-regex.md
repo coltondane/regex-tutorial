@@ -59,7 +59,7 @@ In the regex listed above there is not an example of a lazy match, the '{n}' not
 
 ### Boundaries
 
-In the regex used in this example the only examples of boundaries are the start(^) and end ($) symbols. There are however boundaries for strings formatted: (/Astring/Z) and words: (/bexample/b)
+In the regex used in this example the only examples of boundaries are the start(^) and end ($) symbols. There are however boundaries for strings formatted: ^(/Astring/Z)$ and words: ^(/bexample/b)$
 
 ### Back-references
 
